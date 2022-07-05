@@ -1,0 +1,27 @@
+export const ApiUrl = {
+  // Authentication
+  Login: "/api/Authentication",
+
+  getListAllowance: "/api/PhuCap",
+  jobTitle: "/api/ChucDanh",
+  insurance: "/api/BaoHiem",
+  timeKeeper: "/api/MayChamCong",
+  level: "/api/TrinhDo",
+  department: "/api/PhongBan",
+  shift: "/api/CaLam",
+  holiday: "/api/NgayNghi",
+  contract: "/api/LoaiHopDong",
+  employee: "/api/NguoiDung",
+  personTax: "/api/ThueThuNhapCaNhan",
+  kindOfOvertime: "/api/LoaiTangCa",
+  declareOvertime: "/api/KhaiBaoTangCa",
+  timesheet: "/api/ChamCong",
+  timekeeping: "/api/LichSuChamCong",
+  role: "/api/DanhMucTenQuyen",
+  allowanceEmployee: "/api/PhuCapTheoNhanVien",
+  detailContract: "/api/ChiTietHopDong",
+  leaveDeclare: "/api/KhaiBaoNghiPhep",
+  salaryCal: "/api/DotTinhLuong",
+  salaryDetailCal: "/api/ChiTietDotTinhLuong",
+  contractDetail: "/api/ChiTietHopDong",
+};
